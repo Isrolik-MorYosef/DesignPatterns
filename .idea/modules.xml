@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChainOfResp/ChainOfResp.iml" filepath="$PROJECT_DIR$/ChainOfResp/ChainOfResp.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singelton/Singelton.iml" filepath="$PROJECT_DIR$/Singelton/Singelton.iml" />
       <module fileurl="file://$PROJECT_DIR$/State/State.iml" filepath="$PROJECT_DIR$/State/State.iml" />
