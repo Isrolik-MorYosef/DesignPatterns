@@ -3,8 +3,8 @@
  */
 public abstract class BillHandler {
 
-    protected void setNext(BillHandler next) {
-        this.next = next;
+    protected BillHandler setNext(BillHandler next) {
+        return this.next = next;
     }
 
     protected BillHandler next;

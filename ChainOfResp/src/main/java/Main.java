@@ -11,10 +11,7 @@ public class Main {
         BillHandler billHandler50 = new Bill50();
         BillHandler billHandler20 = new Bill20();
 
-        billHandler200.setNext(billHandler100);
-        billHandler100.setNext(billHandler50);
-        billHandler50.setNext(billHandler20);
-
-        billHandler200.handle(950);
+        billHandler200.setNext(billHandler100).setNext(billHandler50).setNext(billHandler20).setNext(null);
+        billHandler200.handle(1950);
     }
 }
