@@ -14,6 +14,11 @@
         <module>ChainOfResp</module>
         <module>FactoryMethod</module>
         <module>Composite</module>
+        <module>Builder</module>
+        <module>Builder</module>
+        <module>Adapter</module>
+        <module>Strategy</module>
+        <module>Prototype</module>
     </modules>
 
 

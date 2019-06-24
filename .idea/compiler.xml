@@ -6,12 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Adapter" />
+        <module name="Builder" />
+        <module name="ChainOfResp" />
+        <module name="Composite" />
+        <module name="FactoryMethod" />
+        <module name="Prototype" />
         <module name="Singelton" />
+        <module name="State" />
+        <module name="Strategy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Adapter" target="1.5" />
+      <module name="Builder" target="1.8" />
+      <module name="ChainOfResp" target="1.5" />
+      <module name="Composite" target="1.8" />
       <module name="DesignPattern" target="1.5" />
+      <module name="FactoryMethod" target="1.5" />
+      <module name="Prototype" target="1.5" />
       <module name="Singelton" target="1.5" />
+      <module name="State" target="1.5" />
+      <module name="Strategy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
