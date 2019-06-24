@@ -16,8 +16,9 @@ public class LoginFailed extends LoginState{
 	@Override
 	public void loginFailed() {
 		counter++;
-		if (counter > 3)
+		if (counter > 3){
 			ctx.loginState = new BlockedState(ctx);
+		}
 	}
 
 }

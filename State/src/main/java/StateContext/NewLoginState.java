@@ -14,7 +14,7 @@ public class NewLoginState extends LoginState{
 
 	@Override
 	public void loginFailed() {
-		ctx.loginState = new LoginSucceeded(ctx);
+		ctx.loginState = new LoginFailed(ctx);
 		
 	}
 

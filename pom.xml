@@ -13,6 +13,7 @@
         <module>State</module>
         <module>ChainOfResp</module>
         <module>FactoryMethod</module>
+        <module>Composite</module>
     </modules>
 
 
