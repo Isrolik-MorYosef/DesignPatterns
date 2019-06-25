@@ -12,7 +12,7 @@ public class RealATM implements IAtm , IMonitorService {
 	@Override
 	public boolean withdraw(int amount) {
 		System.out.println("withdraw " + amount);
-		return amount < totalMoney;
+		return amount < 1000000;
 	}
 
 	@Override
@@ -45,8 +45,4 @@ public class RealATM implements IAtm , IMonitorService {
 	public boolean isWorking() {
 		return totalMoney > 0;
 	}
-
-	
-	
-	
 }
