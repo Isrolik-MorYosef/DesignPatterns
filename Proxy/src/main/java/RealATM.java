@@ -1,7 +1,7 @@
 
 public class RealATM implements IAtm , IMonitorService {
 
-	private int totalMoney = 1_000_000;
+	private int totalMoney = 1000000;
 	
 	@Override
 	public void desposit(int amount) {
@@ -12,7 +12,7 @@ public class RealATM implements IAtm , IMonitorService {
 	@Override
 	public boolean withdraw(int amount) {
 		System.out.println("withdraw " + amount);
-		return amount < 1_000_000;	
+		return amount < totalMoney;
 	}
 
 	@Override

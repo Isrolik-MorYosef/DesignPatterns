@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="074c08a6-bd04-415e-9971-d015ae6f8a88" name="Default" comment="">
+    <list default="true" id="074c08a6-bd04-415e-9971-d015ae6f8a88" name="Default" comment="add Proxy DP | Exer">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/Proxy.iml" afterPath="$PROJECT_DIR$/Proxy/Proxy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/pom.xml" afterPath="$PROJECT_DIR$/Proxy/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplateMethod/TemplateMethod.iml" afterPath="$PROJECT_DIR$/TemplateMethod/TemplateMethod.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visitor/Visitor.iml" afterPath="$PROJECT_DIR$/Visitor/Visitor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +22,9 @@
     <ignored path="$PROJECT_DIR$/Adapter/target/" />
     <ignored path="$PROJECT_DIR$/Prototype/target/" />
     <ignored path="$PROJECT_DIR$/Strategy/target/" />
+    <ignored path="$PROJECT_DIR$/Visitor/target/" />
+    <ignored path="$PROJECT_DIR$/Proxy/target/" />
+    <ignored path="$PROJECT_DIR$/TemplateMethod/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,38 +35,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visitor/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProxyATM.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,67 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMonitorService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RealATM.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/RealATM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAtm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IAtm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Liqer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visitor/src/main/java/Liqer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tabasco.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visitor/src/main/java/Tabasco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clothing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visitor/src/main/java/Clothing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,12 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Composite/src/main/java/Leaf.java" />
-        <option value="$PROJECT_DIR$/Composite/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/Builder/src/test/Salad.java" />
-        <option value="$PROJECT_DIR$/Builder/src/main/java/ChikenSaladBuilder.java" />
-        <option value="$PROJECT_DIR$/Builder/src/main/java/TunaSaladBuilder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Builder/pom.xml" />
         <option value="$PROJECT_DIR$/Composite/pom.xml" />
         <option value="$PROJECT_DIR$/Builder/src/main/java/Main.java" />
@@ -216,6 +133,12 @@
         <option value="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/StockOffer.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/TadiranSlacks.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/TLVSlacks.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/Mediator.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/Colleague.java" />
+        <option value="$PROJECT_DIR$/Mediator/src/main/java/StockMediator.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
       </list>
     </option>
@@ -255,86 +178,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -788,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561451856605</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add Proxy DP | Exer">
+      <created>1561457554799</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561457554799</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -862,7 +712,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPattern&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
     <MESSAGE value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPatterns&#10;&#10;# Conflicts:&#10;#&#9;Adapter/src/main/java/Adapter3Dto2D.java&#10;#&#9;Adapter/src/main/java/D2NicePainter.java&#10;#&#9;Adapter/src/main/java/D2Painter.java&#10;#&#9;Adapter/src/main/java/D2Shape.java&#10;#&#9;Adapter/src/main/java/D3NicePainter.java&#10;#&#9;Adapter/src/main/java/D3Painter.java&#10;#&#9;Adapter/src/main/java/D3Shape.java&#10;#&#9;Adapter/src/main/java/Exersice/AdapterStr2Int.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/Main.java&#10;#&#9;Adapter/src/main/java/Exersice/NotWorkCalculate.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/WorkCalculate.java&#10;#&#9;Adapter/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Salad.java&#10;#&#9;Builder/src/main/java/SaladBuilder.java&#10;#&#9;Builder/src/main/java/TunaSaladBuilder.java&#10;#&#9;ChainOfResp/src/main/java/Bill100.java&#10;#&#9;ChainOfResp/src/main/java/Bill20.java&#10;#&#9;ChainOfResp/src/main/java/Bill200.java&#10;#&#9;ChainOfResp/src/main/java/Bill50.java&#10;#&#9;ChainOfResp/src/main/java/BillHandler.java&#10;#&#9;ChainOfResp/src/main/java/Main.java&#10;#&#9;Composite/src/main/java/Component.java&#10;#&#9;Composite/src/main/java/Composite.java&#10;#&#9;Composite/src/main/java/Leaf.java&#10;#&#9;Composite/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Car.java&#10;#&#9;FactoryMethod/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Plane.java&#10;#&#9;FactoryMethod/src/main/java/Vehicle.java&#10;#&#9;FactoryMethod/src/main/java/VehicleFactory.java&#10;#&#9;Prototype/src/main/java/Circle.java&#10;#&#9;Prototype/src/main/java/Main.java&#10;#&#9;Prototype/src/main/java/Point.java&#10;#&#9;Prototype/src/main/java/Prototype.java&#10;#&#9;Singelton/src/main/java/Excexercise/ConnectionToDB.java&#10;#&#9;Singelton/src/main/java/Excexercise/DBsingelton.java&#10;#&#9;Singelton/src/main/java/Main.java&#10;#&#9;Singelton/src/main/java/Singelton.java&#10;#&#9;State/src/main/java/Context.java&#10;#&#9;State/src/main/java/IAmBroker.java&#10;#&#9;State/src/main/java/IAmOff.java&#10;#&#9;State/src/main/java/IAmOn.java&#10;#&#9;State/src/main/java/LightState.java&#10;#&#9;State/src/main/java/Main.java&#10;#&#9;State/src/main/java/StateContext/BlockedState.java&#10;#&#9;State/src/main/java/StateContext/Context.java&#10;#&#9;State/src/main/java/StateContext/LoginFailed.java&#10;#&#9;State/src/main/java/StateContext/LoginState.java&#10;#&#9;State/src/main/java/StateContext/LoginSucceeded.java&#10;#&#9;State/src/main/java/StateContext/Main.java&#10;#&#9;State/src/main/java/StateContext/NewLoginState.java&#10;#&#9;Strategy/src/main/java/Animal.java&#10;#&#9;Strategy/src/main/java/Bird.java&#10;#&#9;Strategy/src/main/java/CannotFly.java&#10;#&#9;Strategy/src/main/java/Dog.java&#10;#&#9;Strategy/src/main/java/Main.java&#10;#&#9;Strategy/src/main/java/SuccssesFly.java&#10;#&#9;Strategy/src/main/java/myFlyingAbility.java&#10;#&#9;TemplateMethod/src/main/java/Main.java&#10;#&#9;TemplateMethod/src/main/java/MsSQL.java&#10;#&#9;TemplateMethod/src/main/java/SelectAllMsSQLQuery.java&#10;#&#9;TemplateMethod/src/main/java/TemplateQuery.java&#10;#&#9;Visitor/src/main/java/Clothing.java&#10;#&#9;Visitor/src/main/java/Liqer.java&#10;#&#9;Visitor/src/main/java/Main.java&#10;#&#9;Visitor/src/main/java/Tabasco.java&#10;#&#9;Visitor/src/main/java/TaxVisitorHoliday.java&#10;#&#9;Visitor/src/main/java/TaxVisitorSummer.java&#10;#&#9;Visitor/src/main/java/Visitable.java&#10;#&#9;Visitor/src/main/java/Visitor.java" />
     <MESSAGE value="add Proxy DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Proxy DP" />
+    <MESSAGE value="add Proxy DP | Exer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Proxy DP | Exer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,64 +740,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Adapter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/src/main/java/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/src/main/java/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/src/main/java/myFlyingAbility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/src/main/java/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adapter/src/main/java/D2Painter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Adapter/src/main/java/D2Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1243,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IAtm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1261,7 +1054,7 @@
         <state relative-caret-position="274">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,15 +1067,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/StockOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/TadiranSlacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/TLVSlacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator/src/main/java/StockMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/RealATM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
           </folding>
         </state>
       </provider>

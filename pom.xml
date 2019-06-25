@@ -22,6 +22,7 @@
         <module>TemplateMethod</module>
         <module>Visitor</module>
         <module>Proxy</module>
+        <module>Mediator</module>
     </modules>
 
 
