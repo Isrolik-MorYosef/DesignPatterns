@@ -33,8 +33,12 @@ public class RealATM implements IAtm , IMonitorService {
 	}
 
 	@Override
-	public int getTotalCash() {
-		return totalMoney;
+	public int getTotalCash(String password) {
+		RealATM atm = new RealATM();
+
+		if (password.equals("1234")) {
+			return totalMoney;		}
+		return 0;
 	}
 
 	@Override

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074c08a6-bd04-415e-9971-d015ae6f8a88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/Proxy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/src/main/java/IAtm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,9 +51,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="274">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +63,8 @@
       <file leaf-file-name="ProxyATM.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -76,8 +73,8 @@
       <file leaf-file-name="IMonitorService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -86,15 +83,13 @@
       <file leaf-file-name="RealATM.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/RealATM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="399">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +98,8 @@
       <file leaf-file-name="IAtm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IAtm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -171,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Composite/src/main/java/Component.java" />
-        <option value="$PROJECT_DIR$/Composite/src/main/java/Composite.java" />
         <option value="$PROJECT_DIR$/Composite/src/main/java/Leaf.java" />
         <option value="$PROJECT_DIR$/Composite/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/Builder/src/test/Salad.java" />
@@ -220,8 +213,10 @@
         <option value="$PROJECT_DIR$/Visitor/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/IATM.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/IAtm.java" />
-        <option value="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java" />
         <option value="$PROJECT_DIR$/Proxy/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
       </list>
     </option>
   </component>
@@ -786,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561450295885</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add Proxy DP">
+      <created>1561451856605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561451856605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -800,10 +802,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30443975" sideWeight="0.54114586" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30443975" sideWeight="0.54322916" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22727273" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30443975" sideWeight="0.45885417" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30443975" sideWeight="0.45677084" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -816,7 +818,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40430108" sideWeight="0.41949153" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4038055" sideWeight="0.41770834" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -859,7 +861,8 @@
     <MESSAGE value="Composite commit" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPattern&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
     <MESSAGE value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPatterns&#10;&#10;# Conflicts:&#10;#&#9;Adapter/src/main/java/Adapter3Dto2D.java&#10;#&#9;Adapter/src/main/java/D2NicePainter.java&#10;#&#9;Adapter/src/main/java/D2Painter.java&#10;#&#9;Adapter/src/main/java/D2Shape.java&#10;#&#9;Adapter/src/main/java/D3NicePainter.java&#10;#&#9;Adapter/src/main/java/D3Painter.java&#10;#&#9;Adapter/src/main/java/D3Shape.java&#10;#&#9;Adapter/src/main/java/Exersice/AdapterStr2Int.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/Main.java&#10;#&#9;Adapter/src/main/java/Exersice/NotWorkCalculate.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/WorkCalculate.java&#10;#&#9;Adapter/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Salad.java&#10;#&#9;Builder/src/main/java/SaladBuilder.java&#10;#&#9;Builder/src/main/java/TunaSaladBuilder.java&#10;#&#9;ChainOfResp/src/main/java/Bill100.java&#10;#&#9;ChainOfResp/src/main/java/Bill20.java&#10;#&#9;ChainOfResp/src/main/java/Bill200.java&#10;#&#9;ChainOfResp/src/main/java/Bill50.java&#10;#&#9;ChainOfResp/src/main/java/BillHandler.java&#10;#&#9;ChainOfResp/src/main/java/Main.java&#10;#&#9;Composite/src/main/java/Component.java&#10;#&#9;Composite/src/main/java/Composite.java&#10;#&#9;Composite/src/main/java/Leaf.java&#10;#&#9;Composite/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Car.java&#10;#&#9;FactoryMethod/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Plane.java&#10;#&#9;FactoryMethod/src/main/java/Vehicle.java&#10;#&#9;FactoryMethod/src/main/java/VehicleFactory.java&#10;#&#9;Prototype/src/main/java/Circle.java&#10;#&#9;Prototype/src/main/java/Main.java&#10;#&#9;Prototype/src/main/java/Point.java&#10;#&#9;Prototype/src/main/java/Prototype.java&#10;#&#9;Singelton/src/main/java/Excexercise/ConnectionToDB.java&#10;#&#9;Singelton/src/main/java/Excexercise/DBsingelton.java&#10;#&#9;Singelton/src/main/java/Main.java&#10;#&#9;Singelton/src/main/java/Singelton.java&#10;#&#9;State/src/main/java/Context.java&#10;#&#9;State/src/main/java/IAmBroker.java&#10;#&#9;State/src/main/java/IAmOff.java&#10;#&#9;State/src/main/java/IAmOn.java&#10;#&#9;State/src/main/java/LightState.java&#10;#&#9;State/src/main/java/Main.java&#10;#&#9;State/src/main/java/StateContext/BlockedState.java&#10;#&#9;State/src/main/java/StateContext/Context.java&#10;#&#9;State/src/main/java/StateContext/LoginFailed.java&#10;#&#9;State/src/main/java/StateContext/LoginState.java&#10;#&#9;State/src/main/java/StateContext/LoginSucceeded.java&#10;#&#9;State/src/main/java/StateContext/Main.java&#10;#&#9;State/src/main/java/StateContext/NewLoginState.java&#10;#&#9;Strategy/src/main/java/Animal.java&#10;#&#9;Strategy/src/main/java/Bird.java&#10;#&#9;Strategy/src/main/java/CannotFly.java&#10;#&#9;Strategy/src/main/java/Dog.java&#10;#&#9;Strategy/src/main/java/Main.java&#10;#&#9;Strategy/src/main/java/SuccssesFly.java&#10;#&#9;Strategy/src/main/java/myFlyingAbility.java&#10;#&#9;TemplateMethod/src/main/java/Main.java&#10;#&#9;TemplateMethod/src/main/java/MsSQL.java&#10;#&#9;TemplateMethod/src/main/java/SelectAllMsSQLQuery.java&#10;#&#9;TemplateMethod/src/main/java/TemplateQuery.java&#10;#&#9;Visitor/src/main/java/Clothing.java&#10;#&#9;Visitor/src/main/java/Liqer.java&#10;#&#9;Visitor/src/main/java/Main.java&#10;#&#9;Visitor/src/main/java/Tabasco.java&#10;#&#9;Visitor/src/main/java/TaxVisitorHoliday.java&#10;#&#9;Visitor/src/main/java/TaxVisitorSummer.java&#10;#&#9;Visitor/src/main/java/Visitable.java&#10;#&#9;Visitor/src/main/java/Visitor.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPatterns&#10;&#10;# Conflicts:&#10;#&#9;Adapter/src/main/java/Adapter3Dto2D.java&#10;#&#9;Adapter/src/main/java/D2NicePainter.java&#10;#&#9;Adapter/src/main/java/D2Painter.java&#10;#&#9;Adapter/src/main/java/D2Shape.java&#10;#&#9;Adapter/src/main/java/D3NicePainter.java&#10;#&#9;Adapter/src/main/java/D3Painter.java&#10;#&#9;Adapter/src/main/java/D3Shape.java&#10;#&#9;Adapter/src/main/java/Exersice/AdapterStr2Int.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/Main.java&#10;#&#9;Adapter/src/main/java/Exersice/NotWorkCalculate.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/WorkCalculate.java&#10;#&#9;Adapter/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Salad.java&#10;#&#9;Builder/src/main/java/SaladBuilder.java&#10;#&#9;Builder/src/main/java/TunaSaladBuilder.java&#10;#&#9;ChainOfResp/src/main/java/Bill100.java&#10;#&#9;ChainOfResp/src/main/java/Bill20.java&#10;#&#9;ChainOfResp/src/main/java/Bill200.java&#10;#&#9;ChainOfResp/src/main/java/Bill50.java&#10;#&#9;ChainOfResp/src/main/java/BillHandler.java&#10;#&#9;ChainOfResp/src/main/java/Main.java&#10;#&#9;Composite/src/main/java/Component.java&#10;#&#9;Composite/src/main/java/Composite.java&#10;#&#9;Composite/src/main/java/Leaf.java&#10;#&#9;Composite/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Car.java&#10;#&#9;FactoryMethod/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Plane.java&#10;#&#9;FactoryMethod/src/main/java/Vehicle.java&#10;#&#9;FactoryMethod/src/main/java/VehicleFactory.java&#10;#&#9;Prototype/src/main/java/Circle.java&#10;#&#9;Prototype/src/main/java/Main.java&#10;#&#9;Prototype/src/main/java/Point.java&#10;#&#9;Prototype/src/main/java/Prototype.java&#10;#&#9;Singelton/src/main/java/Excexercise/ConnectionToDB.java&#10;#&#9;Singelton/src/main/java/Excexercise/DBsingelton.java&#10;#&#9;Singelton/src/main/java/Main.java&#10;#&#9;Singelton/src/main/java/Singelton.java&#10;#&#9;State/src/main/java/Context.java&#10;#&#9;State/src/main/java/IAmBroker.java&#10;#&#9;State/src/main/java/IAmOff.java&#10;#&#9;State/src/main/java/IAmOn.java&#10;#&#9;State/src/main/java/LightState.java&#10;#&#9;State/src/main/java/Main.java&#10;#&#9;State/src/main/java/StateContext/BlockedState.java&#10;#&#9;State/src/main/java/StateContext/Context.java&#10;#&#9;State/src/main/java/StateContext/LoginFailed.java&#10;#&#9;State/src/main/java/StateContext/LoginState.java&#10;#&#9;State/src/main/java/StateContext/LoginSucceeded.java&#10;#&#9;State/src/main/java/StateContext/Main.java&#10;#&#9;State/src/main/java/StateContext/NewLoginState.java&#10;#&#9;Strategy/src/main/java/Animal.java&#10;#&#9;Strategy/src/main/java/Bird.java&#10;#&#9;Strategy/src/main/java/CannotFly.java&#10;#&#9;Strategy/src/main/java/Dog.java&#10;#&#9;Strategy/src/main/java/Main.java&#10;#&#9;Strategy/src/main/java/SuccssesFly.java&#10;#&#9;Strategy/src/main/java/myFlyingAbility.java&#10;#&#9;TemplateMethod/src/main/java/Main.java&#10;#&#9;TemplateMethod/src/main/java/MsSQL.java&#10;#&#9;TemplateMethod/src/main/java/SelectAllMsSQLQuery.java&#10;#&#9;TemplateMethod/src/main/java/TemplateQuery.java&#10;#&#9;Visitor/src/main/java/Clothing.java&#10;#&#9;Visitor/src/main/java/Liqer.java&#10;#&#9;Visitor/src/main/java/Main.java&#10;#&#9;Visitor/src/main/java/Tabasco.java&#10;#&#9;Visitor/src/main/java/TaxVisitorHoliday.java&#10;#&#9;Visitor/src/main/java/TaxVisitorSummer.java&#10;#&#9;Visitor/src/main/java/Visitable.java&#10;#&#9;Visitor/src/main/java/Visitor.java" />
+    <MESSAGE value="add Proxy DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Proxy DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,8 +873,14 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Proxy/src/main/java/Main.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1233,47 +1242,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IAtm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/IMonitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="274">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/ProxyATM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/main/java/RealATM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="399">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,9 +2,13 @@
 public class ProxyATM implements IMonitorService {
 
 	@Override
-	public int getTotalCash() {
+	public int getTotalCash(String pass) {
 		RealATM atm = new RealATM();
-		return atm.getTotalCash();
+
+		if (pass == "1234") {
+			return atm.getTotalCash(pass);
+		}
+		return 0;
 	}
 
 	@Override

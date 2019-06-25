@@ -1,7 +1,7 @@
 
 public interface IMonitorService {
 
-	public int getTotalCash();
+	public int getTotalCash(String pass);
 	
 	public boolean isWorking();
 	
