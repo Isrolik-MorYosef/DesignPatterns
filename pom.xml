@@ -19,6 +19,8 @@
         <module>Adapter</module>
         <module>Strategy</module>
         <module>Prototype</module>
+        <module>TemplateMethod</module>
+        <module>Visitor</module>
     </modules>
 
 
