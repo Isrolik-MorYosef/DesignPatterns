@@ -21,6 +21,7 @@
         <module>Prototype</module>
         <module>TemplateMethod</module>
         <module>Visitor</module>
+        <module>Proxy</module>
     </modules>
 
 
