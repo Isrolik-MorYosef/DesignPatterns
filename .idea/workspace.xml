@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="074c08a6-bd04-415e-9971-d015ae6f8a88" name="Default" comment="add Proxy DP | Exer">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="074c08a6-bd04-415e-9971-d015ae6f8a88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/Proxy.iml" afterPath="$PROJECT_DIR$/Proxy/Proxy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/pom.xml" afterPath="$PROJECT_DIR$/Proxy/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" afterPath="$PROJECT_DIR$/Proxy/src/main/java/RealATM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplateMethod/TemplateMethod.iml" afterPath="$PROJECT_DIR$/TemplateMethod/TemplateMethod.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visitor/Visitor.iml" afterPath="$PROJECT_DIR$/Visitor/Visitor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -638,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561457554799</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="s">
+      <created>1561468613456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561468613456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -713,7 +712,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/Isrolik-MorYosef/DesignPatterns&#10;&#10;# Conflicts:&#10;#&#9;Adapter/src/main/java/Adapter3Dto2D.java&#10;#&#9;Adapter/src/main/java/D2NicePainter.java&#10;#&#9;Adapter/src/main/java/D2Painter.java&#10;#&#9;Adapter/src/main/java/D2Shape.java&#10;#&#9;Adapter/src/main/java/D3NicePainter.java&#10;#&#9;Adapter/src/main/java/D3Painter.java&#10;#&#9;Adapter/src/main/java/D3Shape.java&#10;#&#9;Adapter/src/main/java/Exersice/AdapterStr2Int.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/IntCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/Main.java&#10;#&#9;Adapter/src/main/java/Exersice/NotWorkCalculate.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalc.java&#10;#&#9;Adapter/src/main/java/Exersice/StrCalculator.java&#10;#&#9;Adapter/src/main/java/Exersice/WorkCalculate.java&#10;#&#9;Adapter/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Main.java&#10;#&#9;Builder/src/main/java/Salad.java&#10;#&#9;Builder/src/main/java/SaladBuilder.java&#10;#&#9;Builder/src/main/java/TunaSaladBuilder.java&#10;#&#9;ChainOfResp/src/main/java/Bill100.java&#10;#&#9;ChainOfResp/src/main/java/Bill20.java&#10;#&#9;ChainOfResp/src/main/java/Bill200.java&#10;#&#9;ChainOfResp/src/main/java/Bill50.java&#10;#&#9;ChainOfResp/src/main/java/BillHandler.java&#10;#&#9;ChainOfResp/src/main/java/Main.java&#10;#&#9;Composite/src/main/java/Component.java&#10;#&#9;Composite/src/main/java/Composite.java&#10;#&#9;Composite/src/main/java/Leaf.java&#10;#&#9;Composite/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Car.java&#10;#&#9;FactoryMethod/src/main/java/Main.java&#10;#&#9;FactoryMethod/src/main/java/Plane.java&#10;#&#9;FactoryMethod/src/main/java/Vehicle.java&#10;#&#9;FactoryMethod/src/main/java/VehicleFactory.java&#10;#&#9;Prototype/src/main/java/Circle.java&#10;#&#9;Prototype/src/main/java/Main.java&#10;#&#9;Prototype/src/main/java/Point.java&#10;#&#9;Prototype/src/main/java/Prototype.java&#10;#&#9;Singelton/src/main/java/Excexercise/ConnectionToDB.java&#10;#&#9;Singelton/src/main/java/Excexercise/DBsingelton.java&#10;#&#9;Singelton/src/main/java/Main.java&#10;#&#9;Singelton/src/main/java/Singelton.java&#10;#&#9;State/src/main/java/Context.java&#10;#&#9;State/src/main/java/IAmBroker.java&#10;#&#9;State/src/main/java/IAmOff.java&#10;#&#9;State/src/main/java/IAmOn.java&#10;#&#9;State/src/main/java/LightState.java&#10;#&#9;State/src/main/java/Main.java&#10;#&#9;State/src/main/java/StateContext/BlockedState.java&#10;#&#9;State/src/main/java/StateContext/Context.java&#10;#&#9;State/src/main/java/StateContext/LoginFailed.java&#10;#&#9;State/src/main/java/StateContext/LoginState.java&#10;#&#9;State/src/main/java/StateContext/LoginSucceeded.java&#10;#&#9;State/src/main/java/StateContext/Main.java&#10;#&#9;State/src/main/java/StateContext/NewLoginState.java&#10;#&#9;Strategy/src/main/java/Animal.java&#10;#&#9;Strategy/src/main/java/Bird.java&#10;#&#9;Strategy/src/main/java/CannotFly.java&#10;#&#9;Strategy/src/main/java/Dog.java&#10;#&#9;Strategy/src/main/java/Main.java&#10;#&#9;Strategy/src/main/java/SuccssesFly.java&#10;#&#9;Strategy/src/main/java/myFlyingAbility.java&#10;#&#9;TemplateMethod/src/main/java/Main.java&#10;#&#9;TemplateMethod/src/main/java/MsSQL.java&#10;#&#9;TemplateMethod/src/main/java/SelectAllMsSQLQuery.java&#10;#&#9;TemplateMethod/src/main/java/TemplateQuery.java&#10;#&#9;Visitor/src/main/java/Clothing.java&#10;#&#9;Visitor/src/main/java/Liqer.java&#10;#&#9;Visitor/src/main/java/Main.java&#10;#&#9;Visitor/src/main/java/Tabasco.java&#10;#&#9;Visitor/src/main/java/TaxVisitorHoliday.java&#10;#&#9;Visitor/src/main/java/TaxVisitorSummer.java&#10;#&#9;Visitor/src/main/java/Visitable.java&#10;#&#9;Visitor/src/main/java/Visitor.java" />
     <MESSAGE value="add Proxy DP" />
     <MESSAGE value="add Proxy DP | Exer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Proxy DP | Exer" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
