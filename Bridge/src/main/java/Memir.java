@@ -1,5 +1,18 @@
 
 public class Memir extends EntertainmentDevice {
+	private String name;
+
+	public Memir(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	@Override
 	public void printStatus() {
@@ -17,6 +30,11 @@ public class Memir extends EntertainmentDevice {
 	public void previousPressed() {
 		state--;
 		System.out.println("Decreasing Memir program to " + state);
+	}
+
+	@Override
+	public void redButten() {
+		System.out.println("The converter enters recording mode");
 	}
 
 }

@@ -1,5 +1,11 @@
 
 public abstract class EntertainmentDevice {
+
+	private String name;
+
+	protected String getName(){
+		return this.name;
+	};
 	
 	protected int state;
 	
@@ -22,6 +28,8 @@ public abstract class EntertainmentDevice {
 	{
 		this.isOn = false;
 	}
+
+	public abstract void redButten();
 	
 	public void showBattery()
 	{

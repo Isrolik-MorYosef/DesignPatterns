@@ -13,6 +13,9 @@ public class RemoteControl {
 	}
 
 	public void setDevice(EntertainmentDevice device) {
+		System.out.println("==================================");
+		System.out.println("The Devices Change to: " + device.getName());
+		System.out.println("==================================");
 		this.device = device;
 	}
 	
@@ -39,6 +42,9 @@ public class RemoteControl {
 	public void pressInfo()
 	{
 		this.device.printStatus();
+	}
+	public void pressRedButten(){
+		this.device.redButten();
 	}
 	
 	public void OpenMyBedroomDoor()

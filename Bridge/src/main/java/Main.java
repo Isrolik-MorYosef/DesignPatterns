@@ -3,8 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		TV samsungSmartTV = new TV();
-		Memir memir = new Memir();
+		TV samsungSmartTV = new TV("samsung Smart TV");
+		Memir memir = new Memir("memir Yes");
 		
 		RemoteControl myCoolRemote = new RemoteControl(samsungSmartTV);
 		myCoolRemote.pressInfo();
@@ -13,6 +13,7 @@ public class Main {
 		myCoolRemote.pressedNext();
 		myCoolRemote.pressedPrevious();
 		myCoolRemote.pressInfo();
+		myCoolRemote.pressRedButten();
 		
 		myCoolRemote.setDevice(memir);
 		myCoolRemote.pressInfo();
@@ -21,5 +22,8 @@ public class Main {
 		myCoolRemote.pressedNext();
 		myCoolRemote.pressedPrevious();
 		myCoolRemote.pressInfo();
+		myCoolRemote.pressRedButten();
+		myCoolRemote.setDevice(samsungSmartTV);
+
 	}
 }
