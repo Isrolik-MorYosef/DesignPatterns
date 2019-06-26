@@ -23,6 +23,7 @@
         <module>Visitor</module>
         <module>Proxy</module>
         <module>Bridge</module>
+        <module>Decorator</module>
     </modules>
 
 
